@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+.home-bg {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, 0.6),
+      /* 20% black */ rgba(0, 0, 0, 0.6) /* consistent overlay */
+    ),
+    url("/src/img/home-bg.svg");
+  background-size: cover;
+  background-position: center;
+}
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.content-bg {
+  position: relative;
+  width: 100%;
+  height: 100%; /* Full viewport height */
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, 0.6),
+      /* 60% black */ rgba(0, 0, 0, 0.6) /* 60% black */
+    ),
+    url("/src/img/gif1.gif"); /* Path to your GIF */
+  background-size: cover; /* Ensure it covers the full section */
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.value-bg {
+  background-image: url("/src/img/Content.svg");
+  background-size: cover;
+  background-position: center;
+}
+.menu-section-bg {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, 0.6),
+      /* 60% black */ rgba(0, 0, 0, 0.6) /* 60% black */
+    ),
+    url("/src/img/menu-section.svg");
+
+  background-size: cover;
+  background-position: center;
+}
+.footer-image-bg {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, 0.6),
+      /* 60% black */ rgba(0, 0, 0, 0.6) /* 60% black */
+    ),
+    url("/src/img/img-foot.svg");
+
+  background-size: cover;
+  background-position: center;
+}
+.about-bg {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, 0.6),
+      /* 60% black */ rgba(0, 0, 0, 0.6) /* 60% black */
+    ),
+    url("/src/img/about.svg");
+
+  background-size: cover;
+  background-position: center;
+}
+.dining-bg {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, 0.6),
+      /* 60% black */ rgba(0, 0, 0, 0.6) /* 60% black */
+    ),
+    url("/src/img/dining-menu.svg");
+
+  background-size: cover;
+  background-position: center;
+}
+.services-bg {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, 0.6),
+      /* 60% black */ rgba(0, 0, 0, 0.6) /* 60% black */
+    ),
+    url("/src/img/services.svg");
+
+  background-size: cover;
+  background-position: center;
+}
+.reservation-bg {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, 0.6),
+      /* 60% black */ rgba(0, 0, 0, 0.6) /* 60% black */
+    ),
+    url("/src/img/reservation.svg");
+
+  background-size: cover;
+  background-position: center;
+}
+.contact-bg {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, 0.6),
+      /* 60% black */ rgba(0, 0, 0, 0.6) /* 60% black */
+    ),
+    url("/src/img/contact.svg");
+
+  background-size: cover;
+  background-position: center;
+}
+.list-values ion-icon {
+  font-size: 28px;
+  color: #62683a;
+}

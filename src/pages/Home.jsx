@@ -78,12 +78,14 @@ const Home = () => {
             See All Menu
           </button>
         </div>
-        <div className="flex flex-col-reverse md:flex-row justify-between items-center">
-          <div className=" md:w-[40%] w-full  flex flex-col gap-12">
+        <div className="flex flex-col-reverse md:flex-row justify-between items-center gap-8">
+          <div className=" md:w-[40%] w-full  flex flex-col md:gap-6 gap-4">
             <div className="">
               <div className="flex gap-5  items-center justify-between">
                 <div>
-                  <h1 className="text-3xl font-semibold mb-6">Sandwich</h1>
+                  <h1 className="md:text-3xl text-xl font-semibold mb-2">
+                    Sandwich
+                  </h1>
                   <p className="text-base mb-4">
                     The perfect blend of taste and simplicity, offering fresh,
                     handcrafted sandwiches made with premium ingredients.
@@ -96,7 +98,9 @@ const Home = () => {
             <div className="">
               <div className="flex gap-5  items-center justify-between">
                 <div>
-                  <h1 className="text-3xl font-semibold mb-6">Sandwich</h1>
+                  <h1 className="md:text-3xl text-xl font-semibold mb-2">
+                    Sandwich
+                  </h1>
                   <p className="text-base mb-4">
                     The perfect blend of taste and simplicity, offering fresh,
                     handcrafted sandwiches made with premium ingredients.
@@ -109,7 +113,9 @@ const Home = () => {
             <div className="">
               <div className="flex gap-5  items-center justify-between">
                 <div>
-                  <h1 className="text-3xl font-semibold mb-6">Sandwich</h1>
+                  <h1 className="md:text-3xl text-xl font-semibold mb-2">
+                    Sandwich
+                  </h1>
                   <p className="text-base mb-4">
                     The perfect blend of taste and simplicity, offering fresh,
                     handcrafted sandwiches made with premium ingredients.
@@ -122,7 +128,9 @@ const Home = () => {
             <div className="">
               <div className="flex gap-5  items-center justify-between">
                 <div>
-                  <h1 className="text-3xl font-semibold mb-6">Sandwich</h1>
+                  <h1 className="md:text-3xl text-xl font-semibold mb-2">
+                    Sandwich
+                  </h1>
                   <p className="text-base mb-4">
                     The perfect blend of taste and simplicity, offering fresh,
                     handcrafted sandwiches made with premium ingredients.
@@ -138,7 +146,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="md:h-[75vh] h-[60vh]  md:my-32 my-6 value-bg flex items-center md:justify-end justify-center text-[#321D1D]">
+      <section className="md:h-[75vh] h-[60vh]  md:my-32 my-12 value-bg flex items-center md:justify-end justify-center text-[#321D1D]">
         <div className="bg-[#FBF8F4] md:p-12 p-6 w-[550px] md:mr-14 flex flex-col items-start mx-6 ">
           <div className="flex flex-col gap-3 mb-6">
             <h1 className="md:text-6xl text-3xl  ">Our Values</h1>
@@ -188,11 +196,11 @@ const Home = () => {
               </p>
             </div>
           </div>
-          <div>
+          <div className="mb-4">
             <img src={specialMenu} alt="" className="w-[90%]" />
           </div>
-          <div className="flex flex-col md:gap-[82px] gap-9 justify-end items-end ">
-            <div>
+          <div className="flex flex-col md:gap-[82px] gap-9 justify-end items-end md:mt-0 mt-4">
+            <div className="">
               <p className="font-semibold text-xl mb-2 text-right">Salmon</p>
               <p className="text-base text-right">
                 Known for its mild, buttery flavor and tender texture, sourced
@@ -210,7 +218,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="menu-section-bg px-6 md:px-24 md:py-20 md:mx-24 md:my-20 p-6 m-6">
+      <section className="menu-section-bg px-6 md:px-24 md:py-20 md:mx-24 md:my-20 p-6 mx-6 my-12">
         <div className="flex flex-col items-center justify-center gap-6 md:gap-12">
           <h2 className="md:text-6xl text-3xl text-white text-center">
             Indulge in luxury dining to experience culinary artistry

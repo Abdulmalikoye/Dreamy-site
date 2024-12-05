@@ -13,7 +13,7 @@ const Reviews = () => {
           </h1>
         </div>
         <div className="flex items-center justify-between mb-10">
-          <div className="md:w-[100%] w-[60%]">
+          <div className="">
             <img src={arrowLeft} alt="" className="" />
           </div>
           <p className="text-center md:w-[60%]">
@@ -22,7 +22,7 @@ const Reviews = () => {
             utmost years of culinary commitment to excellence makes us the best
             one.""
           </p>
-          <div className="md:w-[100%] w-[60%]">
+          <div className="">
             <img src={arrowRight} alt="" />
           </div>
         </div>

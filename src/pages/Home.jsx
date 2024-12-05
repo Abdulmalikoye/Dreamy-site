@@ -188,11 +188,11 @@ const Home = () => {
               </p>
             </div>
           </div>
-          <div>
+          <div className="mb-4">
             <img src={specialMenu} alt="" className="w-[90%]" />
           </div>
-          <div className="flex flex-col md:gap-[82px] gap-9 justify-end items-end ">
-            <div>
+          <div className="flex flex-col md:gap-[82px] gap-9 justify-end items-end md:mt-0 mt-4">
+            <div className="">
               <p className="font-semibold text-xl mb-2 text-right">Salmon</p>
               <p className="text-base text-right">
                 Known for its mild, buttery flavor and tender texture, sourced

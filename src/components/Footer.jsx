@@ -45,22 +45,22 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <a href="#" className="text-gray-600 hover:text-[#62683A]">
-                  Homepage v1
+                  Home
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-600 hover:text-[#62683A]">
-                  Homepage v2
+                  About Us
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-600 hover:text-[#62683A]">
-                  Homepage v3
+                  Menu
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-600 hover:text-[#62683A]">
-                  About
+                  Reservation
                 </a>
               </li>
               <li>
@@ -70,7 +70,7 @@ const Footer = () => {
               </li>
               <li>
                 <a href="#" className="text-gray-600 hover:text-[#62683A]">
-                  Reservation
+                  Contact Us
                 </a>
               </li>
             </ul>

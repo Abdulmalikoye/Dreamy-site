@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <div className="z-20">
       {isMenuOpen && (
-        <header className="h-screen md:h-full z-10 bg-[#FBF8F4] gap-20 bg-none flex md:hidden flex-col md:justify-between md:items-center md:px-32 md:py-10 px-6 py-6 text-black md:text-white">
+        <header className="h-screen md:h-full bg-[#FBF8F4] gap-20 bg-none flex md:hidden flex-col md:justify-between md:items-center md:px-32 md:py-10 px-6 py-6 text-black md:text-white">
           <div className="flex items-center justify-between">
             <div>
               <img src={logo} alt="" />

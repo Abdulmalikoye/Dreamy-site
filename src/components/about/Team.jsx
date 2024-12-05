@@ -4,13 +4,13 @@ import wifey from "../../img/wifey.svg";
 
 const teamMembers = [
   {
-    name: "Alex Thompson",
-    role: "CEO & Owner",
+    name: "Shervin Orod",
+    role: "Founder",
     imageUrl: "husby",
   },
   {
-    name: "Sarah Chen",
-    role: "Head Sommelier",
+    name: "Nila Jamnia",
+    role: "Co-founder",
     imageUrl: "/api/placeholder/400/500",
   },
 ];
@@ -37,8 +37,8 @@ const Team = () => {
             />
           </div>
           <div className="flex justify-between items-center mt-4">
-            <h3 className="text-lg font-medium">Philippe LeBlanc</h3>
-            <p className="text-gray-600 text-sm">CEO & Owner</p>
+            <h3 className="text-lg font-medium">Shervin Orod</h3>
+            <p className="text-gray-600 text-sm">Founder</p>
           </div>
         </div>
 
@@ -52,8 +52,8 @@ const Team = () => {
             />
           </div>
           <div className="flex justify-between items-center mt-4">
-            <h3 className="text-lg font-medium">Rosario Marine</h3>
-            <p className="text-gray-600 text-sm">Head Sommelier</p>
+            <h3 className="text-lg font-medium">Nila Jamnia</h3>
+            <p className="text-gray-600 text-sm">Co-founder</p>
           </div>
         </div>
       </div>
